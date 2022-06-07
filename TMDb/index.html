@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TMDb - TMDb</title>
+    <link rel="stylesheet" type="text/css" href="/TMDb/all.css" media="all" />
+</head>
+<body>
+    <header>
+        <a href="/TMDb/">
+            <strong>
+                TMDb
+            </strong>
+            <span>Documentation</span>
+        </a>
+    </header>
+
+    <!--
+    <form class="search">
+        <input type="search" placeholder="Search" />
+    </form>
+    -->
+
+    <nav>
+        <div class="wrapper">
+            <h2>On This Page</h2>
+            <ol><li><a href="#properties">Properties</a><ul><li class="variable"><a href="#tmdb.shared">shared</a></li><li class="variable"><a href="#tmdb.certifications">certifications</a></li><li class="variable"><a href="#tmdb.configurations">configurations</a></li><li class="variable"><a href="#tmdb.discover">discover</a></li><li class="variable"><a href="#tmdb.movies">movies</a></li><li class="variable"><a href="#tmdb.people">people</a></li><li class="variable"><a href="#tmdb.search">search</a></li><li class="variable"><a href="#tmdb.trending">trending</a></li><li class="variable"><a href="#tmdb.tvshows">tv​Shows</a></li><li class="variable"><a href="#tmdb.tvshowseasons">tv​Show​Seasons</a></li></ul></li><li><a href="#methods">Methods</a><ul><li class="function"><a href="#tmdb.setapikey(_:)">set​APIKey(_:​)</a></li></ul></li></ol>
+        </div>
+    </nav>
+
+    <main>
+        <article>
+            <h1>
+    <small>Class</small>
+    <code class="name">TMDb</code>
+</h1>
+
+<div class="declaration">
+<pre class="highlight"><code><html><body><span class="keyword">public</span> <span class="attribute">final</span> <span class="keyword">class</span> <span class="type">TMDb</span>  </body></html></code></pre>
+</div>
+<div class="summary" role="doc-abstract">
+    <p>The Movie Database API.</p>
+
+</div>
+<div class="discussion">
+    <p><a href="https://developers.themoviedb.org">The Movie Database API Documentation</a></p>
+
+<p>The TMDb API service is for those of you interested in using their movie, TV show or actor images and/or data in your application. Their API is a system they
+provide for you and your team to programmatically fetch and use their data and/or images.</p>
+
+</div>
+
+    <section id="properties">
+        <h2>Properties</h2>
+
+        <div role="article" class="variable" id="tmdb.shared">
+    <h3>
+        <code><a href="#tmdb.shared">shared</a></code>
+    </h3>
+    <div class="declaration">
+<pre class="highlight"><code><html><body><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">let</span> <span class="variable">shared</span>  </body></html></code></pre>
+</div>
+<div class="summary" role="doc-abstract">
+    <p>A shared instance of the TMDb API.</p>
+
+</div>
+</div>
+<div role="article" class="variable" id="tmdb.certifications">
+    <h3>
+        <code><a href="#tmdb.certifications">certifications</a></code>
+    </h3>
+    <div class="declaration">
+<pre class="highlight"><code><html><body><span class="keyword">public</span> <span class="keyword">let</span> <span class="variable">certifications</span>: <span class="type">CertificationService</span></body></html></code></pre>
+</div>
+<div class="summary" role="doc-abstract">
+    <p>Certifications.</p>
+
+</div>
+</div>
+<div role="article" class="variable" id="tmdb.configurations">
+    <h3>
+        <code><a href="#tmdb.configurations">configurations</a></code>
+    </h3>
+    <div class="declaration">
+<pre class="highlight"><code><html><body><span class="keyword">public</span> <span class="keyword">let</span> <span class="variable">configurations</span>: <span class="type">ConfigurationService</span></body></html></code></pre>
+</div>
+<div class="summary" role="doc-abstract">
+    <p>Configurations.</p>
+
+</div>
+</div>
+<div role="article" class="variable" id="tmdb.discover">
+    <h3>
+        <code><a href="#tmdb.discover">discover</a></code>
+    </h3>
+    <div class="declaration">
+<pre class="highlight"><code><html><body><span class="keyword">public</span> <span class="keyword">let</span> <span class="variable">discover</span>: <span class="type">DiscoverService</span></body></html></code></pre>
+</div>
+<div class="summary" role="doc-abstract">
+    <p>Discover.</p>
+
+</div>
+</div>
+<div role="article" class="variable" id="tmdb.movies">
+    <h3>
+        <code><a href="#tmdb.movies">movies</a></code>
+    </h3>
+    <div class="declaration">
+<pre class="highlight"><code><html><body><span class="keyword">public</span> <span class="keyword">let</span> <span class="variable">movies</span>: <span class="type">MovieService</span></body></html></code></pre>
+</div>
+<div class="summary" role="doc-abstract">
+    <p>Movies.</p>
+
+</div>
+</div>
+<div role="article" class="variable" id="tmdb.people">
+    <h3>
+        <code><a href="#tmdb.people">people</a></code>
+    </h3>
+    <div class="declaration">
+<pre class="highlight"><code><html><body><span class="keyword">public</span> <span class="keyword">let</span> <span class="variable">people</span>: <span class="type">PersonService</span></body></html></code></pre>
+</div>
+<div class="summary" role="doc-abstract">
+    <p>People.</p>
+
+</div>
+</div>
+<div role="article" class="variable" id="tmdb.search">
+    <h3>
+        <code><a href="#tmdb.search">search</a></code>
+    </h3>
+    <div class="declaration">
+<pre class="highlight"><code><html><body><span class="keyword">public</span> <span class="keyword">let</span> <span class="variable">search</span>: <span class="type">SearchService</span></body></html></code></pre>
+</div>
+<div class="summary" role="doc-abstract">
+    <p>Search.</p>
+
+</div>
+</div>
+<div role="article" class="variable" id="tmdb.trending">
+    <h3>
+        <code><a href="#tmdb.trending">trending</a></code>
+    </h3>
+    <div class="declaration">
+<pre class="highlight"><code><html><body><span class="keyword">public</span> <span class="keyword">let</span> <span class="variable">trending</span>: <span class="type">TrendingService</span></body></html></code></pre>
+</div>
+<div class="summary" role="doc-abstract">
+    <p>Trending.</p>
+
+</div>
+</div>
+<div role="article" class="variable" id="tmdb.tvshows">
+    <h3>
+        <code><a href="#tmdb.tvshows">tv​Shows</a></code>
+    </h3>
+    <div class="declaration">
+<pre class="highlight"><code><html><body><span class="keyword">public</span> <span class="keyword">let</span> <span class="variable">tvShows</span>: <span class="type">TVShowService</span></body></html></code></pre>
+</div>
+<div class="summary" role="doc-abstract">
+    <p>TV Shows.</p>
+
+</div>
+</div>
+<div role="article" class="variable" id="tmdb.tvshowseasons">
+    <h3>
+        <code><a href="#tmdb.tvshowseasons">tv​Show​Seasons</a></code>
+    </h3>
+    <div class="declaration">
+<pre class="highlight"><code><html><body><span class="keyword">public</span> <span class="keyword">let</span> <span class="variable">tvShowSeasons</span>: <span class="type">TVShowSeasonService</span></body></html></code></pre>
+</div>
+<div class="summary" role="doc-abstract">
+    <p>TV Show Seasons.</p>
+
+</div>
+</div>
+    </section>
+    <section id="methods">
+        <h2>Methods</h2>
+
+        <div role="article" class="function" id="tmdb.setapikey(_:)">
+    <h3>
+        <code><a href="#tmdb.setapikey(_:)">set​APIKey(_:​)</a></code>
+    </h3>
+    <div class="declaration">
+<pre class="highlight"><code><html><body><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">func</span> <span class="function">setAPIKey</span>(<span class="keyword">_</span> <span class="variable">apiKey</span>: <span class="type">String</span>)  </body></html></code></pre>
+</div>
+<div class="summary" role="doc-abstract">
+    <p>Sets the API Key to be used with requests to the API.</p>
+
+</div>
+<div class="discussion">
+    <ul>
+<li>
+<p>Parameters</p>
+<ul>
+<li>apiKey: The API Key.</li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+    </section>
+
+
+
+        </article>
+    </main>
+
+    <footer>
+        <p>
+    Generated on <time datetime="2022-06-07T16:33:00+0000">June 7, 2022</time> using <a href="https://github.com/SwiftDocOrg/swift-doc">swift-doc</a> <span class="version">1.0.0-rc.1</span>.
+</p>
+    </footer>
+</body>
+</html>
