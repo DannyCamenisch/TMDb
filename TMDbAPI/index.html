@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TMDb - TMDb</title>
+    <title>TMDb - TMDbAPI</title>
     <link rel="stylesheet" type="text/css" href="/TMDb/all.css" media="all" />
 </head>
 <body>
@@ -25,7 +25,7 @@
     <nav>
         <div class="wrapper">
             <h2>On This Page</h2>
-            <ol><li><a href="#properties">Properties</a><ul><li class="variable"><a href="#tmdb.shared">shared</a></li><li class="variable"><a href="#tmdb.certifications">certifications</a></li><li class="variable"><a href="#tmdb.configurations">configurations</a></li><li class="variable"><a href="#tmdb.discover">discover</a></li><li class="variable"><a href="#tmdb.movies">movies</a></li><li class="variable"><a href="#tmdb.people">people</a></li><li class="variable"><a href="#tmdb.search">search</a></li><li class="variable"><a href="#tmdb.trending">trending</a></li><li class="variable"><a href="#tmdb.tvshows">tv​Shows</a></li><li class="variable"><a href="#tmdb.tvshowseasons">tv​Show​Seasons</a></li></ul></li><li><a href="#methods">Methods</a><ul><li class="function"><a href="#tmdb.setapikey(_:)">set​APIKey(_:​)</a></li></ul></li></ol>
+            <ol><li><a href="#properties">Properties</a><ul><li class="variable"><a href="#tmdbapi.shared">shared</a></li><li class="variable"><a href="#tmdbapi.certifications">certifications</a></li><li class="variable"><a href="#tmdbapi.configurations">configurations</a></li><li class="variable"><a href="#tmdbapi.discover">discover</a></li><li class="variable"><a href="#tmdbapi.movies">movies</a></li><li class="variable"><a href="#tmdbapi.people">people</a></li><li class="variable"><a href="#tmdbapi.search">search</a></li><li class="variable"><a href="#tmdbapi.trending">trending</a></li><li class="variable"><a href="#tmdbapi.tvshows">tv​Shows</a></li><li class="variable"><a href="#tmdbapi.tvshowseasons">tv​Show​Seasons</a></li></ul></li><li><a href="#methods">Methods</a><ul><li class="function"><a href="#tmdbapi.setapikey(_:)">set​APIKey(_:​)</a></li></ul></li></ol>
         </div>
     </nav>
 
@@ -33,11 +33,11 @@
         <article>
             <h1>
     <small>Class</small>
-    <code class="name">TMDb</code>
+    <code class="name">TMDbAPI</code>
 </h1>
 
 <div class="declaration">
-<pre class="highlight"><code><html><body><span class="keyword">public</span> <span class="attribute">final</span> <span class="keyword">class</span> <span class="type">TMDb</span>  </body></html></code></pre>
+<pre class="highlight"><code><html><body><span class="keyword">public</span> <span class="attribute">final</span> <span class="keyword">class</span> <span class="type">TMDbAPI</span>  </body></html></code></pre>
 </div>
 <div class="summary" role="doc-abstract">
     <p>The Movie Database API.</p>
@@ -54,9 +54,9 @@ provide for you and your team to programmatically fetch and use their data and/o
     <section id="properties">
         <h2>Properties</h2>
 
-        <div role="article" class="variable" id="tmdb.shared">
+        <div role="article" class="variable" id="tmdbapi.shared">
     <h3>
-        <code><a href="#tmdb.shared">shared</a></code>
+        <code><a href="#tmdbapi.shared">shared</a></code>
     </h3>
     <div class="declaration">
 <pre class="highlight"><code><html><body><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">let</span> <span class="variable">shared</span>  </body></html></code></pre>
@@ -66,9 +66,9 @@ provide for you and your team to programmatically fetch and use their data and/o
 
 </div>
 </div>
-<div role="article" class="variable" id="tmdb.certifications">
+<div role="article" class="variable" id="tmdbapi.certifications">
     <h3>
-        <code><a href="#tmdb.certifications">certifications</a></code>
+        <code><a href="#tmdbapi.certifications">certifications</a></code>
     </h3>
     <div class="declaration">
 <pre class="highlight"><code><html><body><span class="keyword">public</span> <span class="keyword">let</span> <span class="variable">certifications</span>: <span class="type">CertificationService</span></body></html></code></pre>
@@ -78,9 +78,9 @@ provide for you and your team to programmatically fetch and use their data and/o
 
 </div>
 </div>
-<div role="article" class="variable" id="tmdb.configurations">
+<div role="article" class="variable" id="tmdbapi.configurations">
     <h3>
-        <code><a href="#tmdb.configurations">configurations</a></code>
+        <code><a href="#tmdbapi.configurations">configurations</a></code>
     </h3>
     <div class="declaration">
 <pre class="highlight"><code><html><body><span class="keyword">public</span> <span class="keyword">let</span> <span class="variable">configurations</span>: <span class="type">ConfigurationService</span></body></html></code></pre>
@@ -90,9 +90,9 @@ provide for you and your team to programmatically fetch and use their data and/o
 
 </div>
 </div>
-<div role="article" class="variable" id="tmdb.discover">
+<div role="article" class="variable" id="tmdbapi.discover">
     <h3>
-        <code><a href="#tmdb.discover">discover</a></code>
+        <code><a href="#tmdbapi.discover">discover</a></code>
     </h3>
     <div class="declaration">
 <pre class="highlight"><code><html><body><span class="keyword">public</span> <span class="keyword">let</span> <span class="variable">discover</span>: <span class="type">DiscoverService</span></body></html></code></pre>
@@ -102,9 +102,9 @@ provide for you and your team to programmatically fetch and use their data and/o
 
 </div>
 </div>
-<div role="article" class="variable" id="tmdb.movies">
+<div role="article" class="variable" id="tmdbapi.movies">
     <h3>
-        <code><a href="#tmdb.movies">movies</a></code>
+        <code><a href="#tmdbapi.movies">movies</a></code>
     </h3>
     <div class="declaration">
 <pre class="highlight"><code><html><body><span class="keyword">public</span> <span class="keyword">let</span> <span class="variable">movies</span>: <span class="type">MovieService</span></body></html></code></pre>
@@ -114,9 +114,9 @@ provide for you and your team to programmatically fetch and use their data and/o
 
 </div>
 </div>
-<div role="article" class="variable" id="tmdb.people">
+<div role="article" class="variable" id="tmdbapi.people">
     <h3>
-        <code><a href="#tmdb.people">people</a></code>
+        <code><a href="#tmdbapi.people">people</a></code>
     </h3>
     <div class="declaration">
 <pre class="highlight"><code><html><body><span class="keyword">public</span> <span class="keyword">let</span> <span class="variable">people</span>: <span class="type">PersonService</span></body></html></code></pre>
@@ -126,9 +126,9 @@ provide for you and your team to programmatically fetch and use their data and/o
 
 </div>
 </div>
-<div role="article" class="variable" id="tmdb.search">
+<div role="article" class="variable" id="tmdbapi.search">
     <h3>
-        <code><a href="#tmdb.search">search</a></code>
+        <code><a href="#tmdbapi.search">search</a></code>
     </h3>
     <div class="declaration">
 <pre class="highlight"><code><html><body><span class="keyword">public</span> <span class="keyword">let</span> <span class="variable">search</span>: <span class="type">SearchService</span></body></html></code></pre>
@@ -138,9 +138,9 @@ provide for you and your team to programmatically fetch and use their data and/o
 
 </div>
 </div>
-<div role="article" class="variable" id="tmdb.trending">
+<div role="article" class="variable" id="tmdbapi.trending">
     <h3>
-        <code><a href="#tmdb.trending">trending</a></code>
+        <code><a href="#tmdbapi.trending">trending</a></code>
     </h3>
     <div class="declaration">
 <pre class="highlight"><code><html><body><span class="keyword">public</span> <span class="keyword">let</span> <span class="variable">trending</span>: <span class="type">TrendingService</span></body></html></code></pre>
@@ -150,9 +150,9 @@ provide for you and your team to programmatically fetch and use their data and/o
 
 </div>
 </div>
-<div role="article" class="variable" id="tmdb.tvshows">
+<div role="article" class="variable" id="tmdbapi.tvshows">
     <h3>
-        <code><a href="#tmdb.tvshows">tv​Shows</a></code>
+        <code><a href="#tmdbapi.tvshows">tv​Shows</a></code>
     </h3>
     <div class="declaration">
 <pre class="highlight"><code><html><body><span class="keyword">public</span> <span class="keyword">let</span> <span class="variable">tvShows</span>: <span class="type">TVShowService</span></body></html></code></pre>
@@ -162,9 +162,9 @@ provide for you and your team to programmatically fetch and use their data and/o
 
 </div>
 </div>
-<div role="article" class="variable" id="tmdb.tvshowseasons">
+<div role="article" class="variable" id="tmdbapi.tvshowseasons">
     <h3>
-        <code><a href="#tmdb.tvshowseasons">tv​Show​Seasons</a></code>
+        <code><a href="#tmdbapi.tvshowseasons">tv​Show​Seasons</a></code>
     </h3>
     <div class="declaration">
 <pre class="highlight"><code><html><body><span class="keyword">public</span> <span class="keyword">let</span> <span class="variable">tvShowSeasons</span>: <span class="type">TVShowSeasonService</span></body></html></code></pre>
@@ -178,9 +178,9 @@ provide for you and your team to programmatically fetch and use their data and/o
     <section id="methods">
         <h2>Methods</h2>
 
-        <div role="article" class="function" id="tmdb.setapikey(_:)">
+        <div role="article" class="function" id="tmdbapi.setapikey(_:)">
     <h3>
-        <code><a href="#tmdb.setapikey(_:)">set​APIKey(_:​)</a></code>
+        <code><a href="#tmdbapi.setapikey(_:)">set​APIKey(_:​)</a></code>
     </h3>
     <div class="declaration">
 <pre class="highlight"><code><html><body><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">func</span> <span class="function">setAPIKey</span>(<span class="keyword">_</span> <span class="variable">apiKey</span>: <span class="type">String</span>)  </body></html></code></pre>
@@ -210,7 +210,7 @@ provide for you and your team to programmatically fetch and use their data and/o
 
     <footer>
         <p>
-    Generated on <time datetime="2022-06-07T16:33:00+0000">June 7, 2022</time> using <a href="https://github.com/SwiftDocOrg/swift-doc">swift-doc</a> <span class="version">1.0.0-rc.1</span>.
+    Generated on <time datetime="2022-06-15T21:00:31+0000">June 15, 2022</time> using <a href="https://github.com/SwiftDocOrg/swift-doc">swift-doc</a> <span class="version">1.0.0-rc.1</span>.
 </p>
     </footer>
 </body>
